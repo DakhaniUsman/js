@@ -12,6 +12,11 @@
 // 2.1 let 
 // 2.1 const 
 
+// 3. Operators 
+// 3.1 Arithmatic + - * /
+// 3.2 Conditional > < >= <=
+// 3.2 Comparison
+
 // 1.1 String
 //  strings are written in "" '' ``
 //  everything written in these quotes are considered as string even numbers and special characters 
@@ -90,3 +95,25 @@ console.log(false, typeof(false));
 // scope          global/function  block-scoped     block-scoped   // block scoped meaning whithin { }
 // hoisting           true             false           false
 
+
+// 3. Operators 
+
+// 3.1 Arithmatic 
+ 
+console.log( 10 + 20);   // Add
+console.log( 40 - 20);   // Substract
+console.log( 10 * 2);    // Multiply
+console.log( 100 / 25);  // Divide
+
+// 3.2 Conditional
+
+console.log( 10 > 20);   // Greater than
+console.log( 40 < 20);   // Less Than
+console.log( 10 >= 8);    // Greater than equal to 
+console.log( 100 <= 25);  // Less than equal to
+
+// 3.3 Comparison
+
+console.log(10 == 10 ) // equal to only checks data // true
+console.log("10" == 10 ) // equal to only checks data // true which is wrong string != number
+console.log("10" === 10 ) // strict equal to checks data and data type 
