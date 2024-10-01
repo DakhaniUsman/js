@@ -18,3 +18,4 @@ if(num1 > num2){
     // true
     console.log(num1, " is lesser than ", num2);
 }
+
