@@ -14,6 +14,8 @@
 // 3.1 Arithmatic + - * /
 // 3.2 Conditional > < >= <=
 // 3.2 Comparison
+// 3.3 Logical Operators
+
 
 // 4. Conditional Statement -> statement that are executed as per conditions specified
 // 4.1 if  else if  else
