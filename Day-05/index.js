@@ -24,13 +24,13 @@
 // 5.1 In-built functions
 // 5.2 User Defines functions
 
+//  Revision of user defined functions
 // 6. Array -> storage for multiple data with multiple datatypes
 // 6.1 Indexing in array starts from 0
 // 6.2 Array.length
 // 6.3 Array Indexing
 // 6.4 Add Delete last element push pop
 // 6.5 Add Delete first element unshift shift 
-//  Revision of user defined functions
 
 console.log("----------------");
 
