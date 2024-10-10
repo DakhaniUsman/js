@@ -34,6 +34,7 @@
 
 // 7. Loops -> code which keeps on repeating untill the condition is met
 // 7.1 increment and decrement operators
+// 7.2 For loop
 
 // loop -> repeating block of code untill the condition is met
 // syntax =>
