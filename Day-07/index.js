@@ -37,7 +37,6 @@
 // 7.2 For loop
 // 7.3 DSA Questions for loop practice
 
-
 // every question in function
 
 // DSA Question 1
@@ -68,7 +67,9 @@ sequence = 3;
 count = 0;
 
 function questionTwo(start, end, sequence) {
-    console.log("DSA Question 2 - print numbers from 50 to 100 with range of 3 and count them")
+  console.log(
+    "DSA Question 2 - print numbers from 50 to 100 with range of 3 and count them"
+  );
   for (let i = start; i <= end; i += sequence) {
     // console.log(i); // testing
     count++;
@@ -82,7 +83,6 @@ console.log(questionTwo(start, end, sequence));
 console.log(count, "Final count - Outside of loop ");
 console.log("-------------");
 
-
 // DSA Question 3
 // print number form 10 to 50 with range 2
 // add 10 for each value
@@ -91,23 +91,25 @@ console.log("-------------");
 var start = 10;
 var end = 50;
 var sequence = 2;
-var array = []; // creating empty array 
+var array = []; // creating empty array
 
-function questionThree(start, end, sequence){
-    console.log("DSA Question 3 - 10 to 50 with range 2 , add 10 , store in array")
-    // console.log(start, end, sequence);
+function questionThree(start, end, sequence) {
+  console.log(
+    "DSA Question 3 - 10 to 50 with range 2 , add 10 , store in array"
+  );
+  // console.log(start, end, sequence);
 
-    for(var i = start ; i <= 50 ; i += sequence){
-        // console.log(i);  10 to 50 with range 2
-        // console.log(i + 10); value + 10
+  for (var i = start; i <= 50; i += sequence) {
+    // console.log(i);  10 to 50 with range 2
+    // console.log(i + 10); value + 10
 
-        array.push(i + 10); // pushing each value in array
-    }
-    return array ; // final statment of function
+    array.push(i + 10); // pushing each value in array
+  }
+  return array; // final statment of function
 }
 
-console.log(questionThree(start, end, sequence))
-console.log("---------------")
+console.log(questionThree(start, end, sequence));
+console.log("---------------");
 
 // DSA Question 4
 // print count from range 233 to 456, who are odd
@@ -117,28 +119,26 @@ var end = 456;
 var sequence = 1;
 count = 0;
 
+function questionFour(start, end, sequence) {
+  console.log(
+    "DSA Question 4 - print count from range 233 to 456, who are odd"
+  );
 
-function questionFour(start, end, sequence){
-    console.log("DSA Question 4 - print count from range 233 to 456, who are odd");
+  for (var i = start; i <= end; i += sequence) {
+    // console.log(i); //  testing all
+    // if(i % 2 == 1){
+    //     console.log(i); // odd values
+    // }
 
-    for (var i = start ; i <= end ; i += sequence){
-        // console.log(i); //  testing all
-        // if(i % 2 == 1){
-        //     console.log(i); // odd values
-        // }
-
-        if( i % 2 == 1){
-        count++;
-        }
-
+    if (i % 2 == 1) {
+      count++;
     }
-    console.log("final count is ", count)
-    return count + " number are odd number";
-
+  }
+  console.log("final count is ", count);
+  return count + " number are odd number";
 }
 
 console.log(questionFour(start, end, sequence));
-console.log("---------------")
+console.log("---------------");
 
-
-console.log("////////// DAKHANI USMAN //////////")
+console.log("////////// DAKHANI USMAN //////////");
