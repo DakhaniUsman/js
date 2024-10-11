@@ -1,27 +1,27 @@
 // 1. Datatypes -> Data is every information
-// 1.1 String 
+// 1.1 String
 // 1.2 Number
 // 1.3 Boolean
-// 1.4 Undefined 
+// 1.4 Undefined
 // 1.5 Null
 
 // 2. Variables -> containers to store data
-// 2.1 var 
-// 2.1 let 
-// 2.1 const 
+// 2.1 var
+// 2.1 let
+// 2.1 const
 
-// 3. Operators 
+// 3. Operators
 // 3.1 Arithmatic + - * /
 // 3.2 Conditional > < >= <=
 // 3.2 Comparison
 // 3.3 Logical Operators
 
 // 4. Conditional Statement -> statement that are executed as per conditions specified
-// 4.1 if  else if  else
+// 4.1 if  else if  elsec
 // 4.2 switch
 
 // 5. Functions
-// 5.1 In-built functions 
+// 5.1 In-built functions
 // 5.2 User Defines functions
 
 // Function -> are containers that contain multiple lines of code
@@ -45,7 +45,7 @@ greet();                            // Function Calling
 // greet();
 console.log("-------------")
 
-// writing multiple lines of code in a function 
+// writing multiple lines of code in a function
 
 function Addition(){
     var number1 = 10;
@@ -60,7 +60,7 @@ console.log("-------------")
 function findGreaterNumber(){
     var number1 = 99;
     var number2 = 9;
-    // conditonal statment if else 
+    // conditonal statment if else
 
     if (number1 > number2){
         console.log(" Number1 is greater than Number2");
@@ -79,7 +79,7 @@ console.log("-------------")
 // parameter and props
 // parameter are the var names that are passed inside funtion parenthesis
 // props are the values of those var names
-// positioning matters first value will be assigned to the first variable and second value will be assigned to the second variable 
+// positioning matters first value will be assigned to the first variable and second value will be assigned to the second variable
 // you can use multiple parameters and props positioning shoul be kept in mind
 
 var number1 = 11;
@@ -100,4 +100,17 @@ console.log(output2);
 console.log("-----------");
 
 
+// var array = [1,2,3,4,5];
+// var index = 0;
 
+// function arrayPrint () {
+
+//     for(let i = 0 ; i <= array.length - 1 ; i++){
+//         // console.log(i);
+//         console.log(array[index]);
+//         index++;
+//     }
+//     return array;
+// }
+
+// console.log(arrayPrint());
