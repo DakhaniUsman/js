@@ -1,16 +1,16 @@
 // 1. Datatypes -> Data is every information
-// 1.1 String 
+// 1.1 String
 // 1.2 Number
 // 1.3 Boolean
-// 1.4 Undefined 
+// 1.4 Undefined
 // 1.5 Null
 
 // 2. Variables -> containers to store data
-// 2.1 var 
-// 2.1 let 
-// 2.1 const 
+// 2.1 var
+// 2.1 let
+// 2.1 const
 
-// 3. Operators 
+// 3. Operators
 // 3.1 Arithmatic + - * /
 // 3.2 Conditional > < >= <=
 // 3.2 Comparison
@@ -136,6 +136,24 @@ switch (fruit) {
   }
 
 
-// difference between if else and switch 
+// difference between if else and switch
 //    if else execute and break
 //    switch keep on executiing if break not used
+
+console.log("------ Character Switch -----");
+
+var character = "ussop";
+
+switch (character){
+  case "luffy" :
+    console.log("You have selected luffy");
+    break;
+  case "zoro" :
+    console.log("You have selected zoro");
+      break;
+  case "nami" :
+    console.log("You have selected nami");
+    break;
+  default :
+  console.log("Selected character is not available :(");
+}
