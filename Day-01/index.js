@@ -9,13 +9,13 @@
 
 // 2. Variables -> containers to store data
 // 2.1 var
-// 2.1 let
-// 2.1 const
+// 2.2 let
+// 2.3 const
 
 // 3. Operators
 // 3.1 Arithmatic + - * /
 // 3.2 Conditional > < >= <=
-// 3.2 Comparison
+// 3.3 Comparison
 
 // 1.1 String
 //  strings are written in "" '' ``
