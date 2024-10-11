@@ -12,3 +12,23 @@ function oddEven() {
 }
 
 oddEven();
+
+// var number1 = 10;
+// var number2 = 11;
+
+// function EvenOdd() {
+
+//   if (number1 % 2 == 0) {
+//     console.log(number1, " is an even number.");
+
+//   }
+
+//   else {
+//     console.log(number1, " is an odd number.");
+//   }
+
+// }
+
+// var output = EvenOdd();
+
+// console.log(output);
