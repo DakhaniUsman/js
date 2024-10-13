@@ -33,9 +33,11 @@
 // 6.5 Add Delete first element unshift shift
 
 // 7. Loops -> code which keeps on repeating untill the condition is met
+// for loops, while loops
 // 7.1 increment and decrement operators
 // 7.2 For loop
 // 7.3 DSA Questions for loop practice
 // 7.4 DSA Question for loop practice (decrement)
 // 7.5 Reverse for loop
 // 7.6 Array with for loops
+// 7.7 While Loop
