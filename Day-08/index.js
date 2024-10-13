@@ -37,6 +37,9 @@
 // 7.2 For loop
 // 7.3 DSA Questions for loop practice
 // 7.4 DSA Question for loop practice (decrement)
+// 7.5 Reverse for loop
+// 7.6 Array with for loops
+
 
 // every question in function
 
