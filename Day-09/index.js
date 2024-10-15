@@ -148,14 +148,3 @@ console.log("----------------------");
 console.log("////////// DAKHANI USMAN //////////");
 
 
-var array = [10,20,30,40,50]
-
-var i = 0;
-
-while(i < array.length){
-  if (array[i] != 30 && array[i] != 10){
-    console.log(array[i])
-    
-  }
-  i++;
-}
