@@ -85,9 +85,8 @@ console.log("Binary Seach Method");
 var array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 var target = 1;
 
-
 console.log(array);
-console.log(target, " is our target element")
+console.log(target, " is our target element");
 // Linear Search => 8 itterations
 // how to do it in less iterations ???
 
@@ -143,8 +142,6 @@ if (array[middleIndex] === target) {
     i--; // go till first index
   }
 }
-
-
 
 console.log("----------------------");
 
