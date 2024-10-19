@@ -44,7 +44,7 @@
 
 // 8. Search methods
 // 8.1 Linear Search
-// 8.2 Biniarry Search
+// 8.2 Binary Search
 
 // linear seach means searching each element one after other linearly
 
