@@ -50,16 +50,15 @@
 
 // searching middle element
 //  comparing middle element with target
-//  if array[middleIndex] > target then we have to go on right side 
-//  if array[middleIndex] < target  then we will go on left side 
+//  if array[middleIndex] > target then we have to go on right side
+//  if array[middleIndex] < target  then we will go on left side
 
-
-// going on right side scenario 
-//  array[middleIndex] = 5 & target = 8  
+// GOING on right side scenario
+//  array[middleIndex] = 5 & target = 8
 //      => 5 < 8 => go right
 //      left = 5 & right = 8    // index
-//  now we have to gain calculate the middleIndex of new array 
-//      6,7,8,9 => 
+//  now we have to again calculate the middleIndex of new array
+//      6,7,8,9 =>
 // array[middleIndex] = 7 having index middleindex = 6
 
 //  again compare the middleIndex with target if
@@ -74,15 +73,80 @@
 //  8 == 8
 // we have found the target at index 7
 
+// GOING on left scenario
+// target = 3
 
+// [1,2,3,4,5,6,7,8,9]
+// left = 0             array[left]  =  1
+// middleindex = 4      array[middleindex]  =  5
+// right = 8            array[right]  =  9
+
+//  on comparing array[middleIndex] with target
+// array[middleIndex] > target
+// array[4] > 3
+//  5 > 3   => true
+// go on left side
+
+// new array [1,2,3,4]
+// left = 0             array[left]  =  1
+// middleindex = 2      array[middleindex]  =  3
+// right = 3            array[right]  =  4
+
+//  on comparing array[middleIndex] with target
+// array[middleIndex] > target
+// array[3] > 3
+//  4 > 3   => true
+// go on right side
+
+// new array [3,4]
+// left = 2             array[left]  =  3
+// middleindex = 2      array[middleindex]  =  3
+// right = 3            array[right]  =  4
+
+//  on comparing array[middleIndex] with target
+// array[middleIndex] == target
+// array[2] == 3
+//  3 == 3   => true
+// we have found the target on 2 index position
 
 var array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 var target = 8;
 
 function BinarySearch(array, target) {
+  var left = 0;
+  var right = array.length - 1;
 
-    var left = 0;
-    var right = array.length - 1; 
+  while (left <= right){
+    const middleIndex = Math.floor((left + right) / 2); 
+    // 0 + 8 / 2  =>  8 / 2  => 4
+    // array[middleImdex]  => array[4]  =>  5
+
+    console.log(middleIndex,"middleIndex", array[middleIndex]);
+
+  console.log("array", array);
+  console.log("left", left);
+  console.log("right", right);
+  console.log("target", target);
+
+  if (array[middleIndex] === target) {
+ 
+    console.log(array[middleIndex] , "===",  target , " is true")
+
+    console.log("we have found the target at", middleIndex, " index position");
+  } 
+  
+  else if (array[middleIndex] < target) {
+
+    console.log(array[middleIndex] , "<",  target , " is true")
+
+
+    left = middleIndex + 1;
+    right = array.length - 1;
+
+    console.log(left);
+    console.log(right);
+  } 
+  }
 }
 
-// console.log(BinarySearch(array, target));
+console.log(BinarySearch(array, target));
