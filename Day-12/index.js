@@ -110,43 +110,42 @@
 // we have found the target on 2 index position
 
 var array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-var target = 8;
+var target = 6;
 
 function BinarySearch(array, target) {
-  var left = 0;
-  var right = array.length - 1;
 
-  while (left <= right){
-    const middleIndex = Math.floor((left + right) / 2); 
-    // 0 + 8 / 2  =>  8 / 2  => 4
-    // array[middleImdex]  => array[4]  =>  5
+    var left = 0; // 0 start  // 5  // 7
+    var right = array.length - 1; // 8 end  // 8  // 8
 
-    console.log(middleIndex,"middleIndex", array[middleIndex]);
+    while (left <= right) {  // 0 < 8 , true  // 5 < 8 , true  // 7 < 8 , true
 
-  console.log("array", array);
-  console.log("left", left);
-  console.log("right", right);
-  console.log("target", target);
+        console.log(left, "left", right, "right"); // 0 left 8 right  // 5 8  // 7 8
+        const midIndex = Math.floor((left + right) / 2); // (0 + 8) / 2  = 4  // (5+8)/2 = 13/2 floor => 6   // (7+8)/2 = 15/2 floor => 7
+        console.log(midIndex, "midIndex", array[midIndex], "midElement"); // 4 midIndex 5 midElement  // 6 7  // 7 8
 
-  if (array[middleIndex] === target) {
- 
-    console.log(array[middleIndex] , "===",  target , " is true")
+        if (array[midIndex] === target) {  // 5 === 8 , false // 7 === 8, false  // 8 === 8 , true
+            console.log(array[midIndex], "midElement", target, "target"); //
+            return "We have found the target at " + midIndex + " index position";
+        }
 
-    console.log("we have found the target at", middleIndex, " index position");
-  } 
-  
-  else if (array[middleIndex] < target) {
+        else if (array[midIndex] < target) {  // 5 < 8 , true  // 7 < 8 , true
+            console.log(array[midIndex], " <", target);
+            left = midIndex + 1;  // 4+1 = 5  // 5+1 = 6
+        }
 
-    console.log(array[middleIndex] , "<",  target , " is true")
+        else if (array[midIndex] > target) {
+            console.log(array[midIndex], " >", target);
+            right = midIndex - 1;
+        }
 
 
-    left = middleIndex + 1;
-    right = array.length - 1;
 
-    console.log(left);
-    console.log(right);
-  } 
-  }
+    }
+    return "Target not found"
+
 }
 
-console.log(BinarySearch(array, target));
+console.log(BinarySearch(array, target))
+
+console.log("--------------------------------")
+console.log("///// - Dakhani Usman - /////")
