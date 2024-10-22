@@ -30,7 +30,7 @@
 // 6.2 Array.length
 // 6.3 Array Indexing
 // 6.4 Add Delete last element push pop
-// 6.5 Add Delete first element unshift shift 
+// 6.5 Add Delete first element unshift shift
 
 console.log("----------------");
 
@@ -176,13 +176,13 @@ console.log("Deleting last element using pop()")
 characters.pop();
 console.log(characters)
 
-// adding element at start 
+// adding element at start
 
 console.log("Adding first element using unshift()")
 characters.unshift("Roger");
 console.log(characters)
 
-// deleting element at start 
+// deleting element at start
 
 console.log("Adding first element using shift()")
 characters.shift("Roger");
