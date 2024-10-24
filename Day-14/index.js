@@ -90,7 +90,7 @@ console.log("------------------")
 
 console.log("Creating a new object through new keyword")
 var characters = new Object();
-// var characters = {};
+// var characters = {};`
 
 console.log(characters, "characters")
 console.log(typeof (characters))
