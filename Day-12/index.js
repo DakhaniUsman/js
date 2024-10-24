@@ -44,7 +44,7 @@
 
 // 8. Search methods
 // 8.1 Linear Search
-// 8.2 Binary Search
+// 8.2 Binary Search (divide untill u get the target)
 
 // Question we have to find the index of target using Binary Search method
 
