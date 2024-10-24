@@ -51,7 +51,7 @@ console.log(GreaterNumber(number1, number2));
 
 console.log("----------------");
 
-// texting even and odd number
+// testing even and odd number
 
 console.log("----------------");
 console.log("Testing even and odd number");
@@ -187,3 +187,37 @@ console.log(characters)
 console.log("Adding first element using shift()")
 characters.shift("Roger");
 console.log(characters)
+
+
+
+var array = [1, 2, 3, 4, 5, 6, 7];
+
+// adding element in aray
+array.push(8); // one at a time
+console.log(array);
+
+// deleting element from array
+array.pop();  // one at a time
+console.log(array);
+
+
+// replacing element in an array
+var index = 1;
+var value = 99;
+
+array[index] = value;
+array[0] = 100;
+console.log(array)
+
+
+// adding element at start
+
+var array = [1,2,3,4,5];
+array.unshift(0);  //one at a time
+console.log(array);
+
+//deleting element at start
+
+var array = [1,2,3,4,5];
+array.shift();  //one at a time
+console.log(array)
