@@ -189,6 +189,8 @@ var {name , age , details} = newObject;  // keys can be used as variables like t
 var {height} = details;
 console.log(name, age , height);
 
+console.log("----- Dakhani Usman -----")
+
 
 
 
