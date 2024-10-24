@@ -212,12 +212,12 @@ console.log(array)
 
 // adding element at start
 
-var array = [1,2,3,4,5];
+var array = [1, 2, 3, 4, 5];
 array.unshift(0);  //one at a time
 console.log(array);
 
 //deleting element at start
 
-var array = [1,2,3,4,5];
+var array = [1, 2, 3, 4, 5];
 array.shift();  //one at a time
 console.log(array)
