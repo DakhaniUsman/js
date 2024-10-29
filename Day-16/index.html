@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Day 16 - local storage</title>
+  </head>
+  <body>
+    <button onclick="setDataInStorage()">Click Me!</button>
+
+    <script>
+      function setDataInStorage() {
+        alert("You have clicked a function");
+        localStorage.setItem("Myname", JSON.stringify({ name: "usman" })); // if it shows object object it means browser does not understand javascript it needs json
+      }
+    </script>
+  </body>
+</html>
+ 
+<!-- code block means the above block of code runf=s on javascript -->
+<!-- whereas browser runs on JSON javascript object notation -->
+
+<!-- in js object is defined as { key : "value"} -->
+<!-- in json object is defined as {"key" : "value"} -->
+
+<!-- JSON.stringify() => JS to JSON-->
+<!-- JSON.parse()    => JSON to JS -->

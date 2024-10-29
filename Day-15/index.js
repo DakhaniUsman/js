@@ -89,7 +89,7 @@ console.log(Palindrome(word));
 
 console.log("-----------------");
 
-console.log(Palindrome("abcdedcba"))
+console.log(Palindrome("abcdedcba"));
 console.log("-----------------");
 
 // How is works
@@ -131,3 +131,18 @@ console.log(newPalindrome(word));
 
 console.log("-----------------");
 console.log("-------- Dakhani Usman --------");
+
+function NeWPalindrome() {
+  var name = "abba";
+
+  for (var i = 0; i < Math.floor(name.length - 1) / 2; i++) {
+    console.log(i, name[i], "  ", name.length - i, name[name.length - 1 - i]);
+
+    if (name[i] !== name[name.length - 1 - i]) {
+      return "Word is not a palindrome";
+    }
+  }
+  return "Word is a palindrome";
+}
+
+console.log(NeWPalindrome());
