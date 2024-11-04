@@ -67,11 +67,11 @@
 // it adds a delay to the code execution
 // it requires two value a handler function () => {} in most cases and a timeout time
 
-// console.log("----- setTimeout() -----")
+console.log("----- setTimeout() -----")
 
-// setTimeout(() => {
-//   console.log("Hi I am setTimeout()");
-// }, 3000);
+setTimeout(() => {
+  console.log("Hi I am setTimeout()");
+}, 3000);
 
 // () = > is called handler function , 3000 is time mentioned in milisecond 300ms = 3 sec
 
@@ -84,7 +84,7 @@
 // setInterval(() => {
 //     console.log("I am groot");
 //   }, 2000);
-  
+
 // var count = 0;
 // const id = setInterval(() => {
 //     count++;
@@ -97,16 +97,14 @@
 //     }
 //   }, 2000);
 
-console.log("----- Dakhani Usman -----")
+// console.log("----- Dakhani Usman -----")
 
-  
-// localstorage is permanent storage on a website and is not deleted on closing tab 
+
+// localstorage is permanent storage on a website and is not deleted on closing tab
 
 // sessionstorage is temporary storage on a website and is deleted on closing tab (used for sensitive data like banking application)
 
-// cookies are also kinf of storage but it is front end restricted and only can be delted or modified through backedn 
+// cookies are also kinf of storage but it is front end restricted and only can be delted or modified through backedn
 
 
 // localstorage permanent storage untill deleted personally
-
-
