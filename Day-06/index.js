@@ -108,77 +108,77 @@ console.log("on 11th itteration the value of i = 11 and since 11 is not less tha
 console.log("********************")
 // Understanding each itteration - > each cycle
 
-// 1 - itteration 
+// 1 - itteration
 // i = 1
 // i <= 10  => true
 // console.log(1) => value of i = 1
-// i++ => increasing the value by 1 
+// i++ => increasing the value by 1
 // now i = 2
 
-// 2 - itteration 
+// 2 - itteration
 // i = 2
 // i <= 10  => true
 // console.log(2) => value of i = 2
 // i++ => increasing the value by 1
 // now i = 3
 
-// 3 - itteration 
+// 3 - itteration
 // i = 3
 // i <= 10  => true
 // console.log(3) => value of i = 3
 // i++ => increasing the value by 1
 // now i = 4
 
-// 4 - itteration 
+// 4 - itteration
 // i = 4
 // i <= 10  => true
 // console.log(4) => value of i = 4
 // i++ => increasing the value by 1
 // now i = 5
 
-// 5 - itteration 
+// 5 - itteration
 // i = 5
 // i <= 10  => true
 // console.log(5) => value of i = 5
 // i++ => increasing the value by 1
 // now i = 6
 
-// 6 - itteration 
+// 6 - itteration
 // i = 6
 // i <= 10  => true
 // console.log(6) => value of i = 6
 // i++ => increasing the value by 1
 // now i = 7
 
-// 7 - itteration 
+// 7 - itteration
 // i = 7
 // i <= 10  => true
-// console.log(7) => value of i = 7
+// console.log(7) => value of i = 7 
 // i++ => increasing the value by 1
 // now i = 8
 
-// 8 - itteration 
+// 8 - itteration
 // i = 8
 // i <= 10  => true
 // console.log(8) => value of i = 8
 // i++ => increasing the value by 1
 // now i = 9
 
-// 9 - itteration 
+// 9 - itteration
 // i = 9
 // i <= 10  => true
 // console.log(9) => value of i = 9
 // i++ => increasing the value by 1
 // now i = 10
 
-// 10 - itteration 
+// 10 - itteration
 // i = 10
 // i <= 10  => 10 = 10 true
 // console.log(10) => value of i = 10
 // i++ => increasing the value by 1
 // now i = 11
 
-// 11 - itteration 
+// 11 - itteration
 // i = 11
 // i <= 10  => 11 < 10 false
 // condition becomes false then loop ends and run time goes on other lines of code

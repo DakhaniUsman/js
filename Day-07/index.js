@@ -143,3 +143,34 @@ console.log(questionFour(start, end, sequence));
 console.log("---------------");
 
 console.log("////////// DAKHANI USMAN //////////");
+
+
+// print the count of odd numbers from 1 to 100 and store them in an array
+
+// numbers from 1 to 100
+// odd numbers
+//
+// count
+
+var start = 1;
+var end = 100;
+var sequence = 1;
+var count = 0;
+var array = [];
+
+function TestQuestion(start, end, sequence) {
+
+  for (let i = start; i <= end; i += sequence) {
+
+    if (i % 2 == 1) {
+      count++;
+      array.push(i)
+    }
+
+  }
+  console.log(array);
+  return count;
+
+}
+
+console.log(TestQuestion(start, end, sequence));
