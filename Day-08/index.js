@@ -139,11 +139,11 @@ function TestQuestion() {
     // console.log(i);
     array1.push(i);
 
-    if (array1[i - 1] % 2 == 0) {
+    if (i % 2 == 0) {
       array2.push(i);
     }
 
-    else if (array1[i - 1] % 2 == 1) {
+    else if (i % 2 == 1) {
       array3.push(i);
     }
 
