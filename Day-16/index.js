@@ -69,9 +69,9 @@
 
 // console.log("----- setTimeout() -----")
 
-// setTimeout(() => {
-//   console.log("Hi I am setTimeout()");
-// }, 3000);
+setTimeout(() => {
+  console.log("Hi I am setTimeout()");
+}, 3000);
 
 // () = > is called handler function , 3000 is time mentioned in milisecond 300ms = 3 sec
 
@@ -81,21 +81,21 @@
 
 // console.log("----- setInterval() -----")
 
-// setInterval(() => {
-//     console.log("I am groot");
-//   }, 2000);
+setInterval(() => {
+    console.log("I am groot");
+  }, 2000);
   
-// var count = 0;
-// const id = setInterval(() => {
-//     count++;
-//     console.log(count);
+var count = 0;
+const id = setInterval(() => {
+    count++;
+    console.log(count);
 
-//     if (count > 5){
-//         console.log(id)
-//         clearInterval(id);
-//         console.log("Interval cleared.")
-//     }
-//   }, 2000);
+    if (count > 5){
+        console.log(id)
+        clearInterval(id);
+        console.log("Interval cleared.")
+    }
+  }, 2000);
 
 console.log("----- Dakhani Usman -----")
 
