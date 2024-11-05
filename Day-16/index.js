@@ -81,14 +81,25 @@ setTimeout(() => {
 
 // console.log("----- setInterval() -----")
 
+<<<<<<< HEAD
+setInterval(() => {
+    console.log("I am groot");
+  }, 2000);
+  
+var count = 0;
+const id = setInterval(() => {
+    count++;
+    console.log(count);
+=======
 // setInterval(() => {
 //     console.log("I am groot");
 //   }, 2000);
-  
+
 // var count = 0;
 // const id = setInterval(() => {
 //     count++;
 //     console.log(count);
+>>>>>>> ac652dbf605a074b8c2b5efe2f519617f7243c84
 
     if (count > 5){
         console.log(id)
