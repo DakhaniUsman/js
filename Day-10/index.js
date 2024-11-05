@@ -76,3 +76,21 @@ while (i < array.length) {
 console.log("----------------------");
 
 console.log("////////// DAKHANI USMAN //////////");
+
+// TestQuestion
+
+console.log("Printing number from array who are odd");
+var array = [25, 27, 34, 36, 45, 47, 54, 56];
+
+var i = 0;
+while (i < array.length) {
+
+  if (array[i] % 2 == 1) {
+
+    console.log(array[i])
+
+  }
+
+  i++;
+
+}

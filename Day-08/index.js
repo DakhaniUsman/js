@@ -122,3 +122,37 @@ console.log(questionFour());
 console.log("-------------------------");
 
 console.log("////////// DAKHANI USMAN //////////");
+
+
+// TestQuestion print an array containing numbers from 1 to 10, print array having only even numbers, print array having only odd numbers
+
+function TestQuestion() {
+
+  var start = 1;
+  var end = 10;
+  var sequence = 1;
+  var array1 = []; // all
+  var array2 = []; // even
+  var array3 = []; // odd
+
+  for (let i = start; i <= end; i += sequence) {
+    // console.log(i);
+    array1.push(i);
+
+    if (i % 2 == 0) {
+      array2.push(i);
+    }
+
+    else if (i % 2 == 1) {
+      array3.push(i);
+    }
+
+  }
+
+  console.log(array1);
+  console.log(array2);
+  console.log(array3);
+
+}
+
+console.log(TestQuestion());
