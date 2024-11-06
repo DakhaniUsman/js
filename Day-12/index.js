@@ -149,3 +149,43 @@ console.log(BinarySearch(array, target))
 
 console.log("--------------------------------")
 console.log("///// - Dakhani Usman - /////")
+
+
+// TestQuestion Binary Search
+
+var array = [1, 2, 3, 4, 5, 6, 7];
+var target = 1;
+
+// we have to find the index of target using binary search method
+
+function BinarySearch(array, target) {
+
+    left = 0; // start 0 index value                                // 0
+    right = array.length - 1; // end = 6 index value                // 6
+
+    while (left <= right) {      // 0 < 6  // 0 < 2
+
+        const midIndex = Math.floor((left + right) / 2);            // 3  // 1
+
+        console.log(left, "left", right, "right");                // 0 left 6 right  // 0 left 2 right
+        console.log(midIndex, "midIndex", array[midIndex], "midElement");  // 3 midIndex 4 midElement  // 1 2
+
+        if (array[midIndex] === target) {                             // 4 === 2 , false        // 2 === 2 , true
+            return "We have found the target at " + midIndex + " index position";       // 1
+        }
+
+        else if (array[midIndex] < target) {          // 4  < 2, false
+            left = midIndex + 1;
+        }
+
+        else if (array[midIndex] > target) {             // 4 > 2, true
+            right = midIndex - 1;           // right = 2
+        }
+
+    }
+
+
+}
+
+
+console.log(BinarySearch(array, target));
