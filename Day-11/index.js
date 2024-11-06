@@ -146,3 +146,31 @@ if (array[middleIndex] === target) {
 console.log("----------------------");
 
 console.log("////////// DAKHANI USMAN //////////");
+
+
+// TestQuestion for Linear Search
+
+var array = [1, 3, 2, 4, 6, 8, 10, 5, 7, 9];
+var target = 7;
+
+function LinearSearch(array, target) {
+
+  for (let i = 0; i < array.length; i++) {
+
+    // console.log(array[i]);
+
+    if (array[i] === target) {
+
+      console.log("We have found the target at " + i + " index");
+
+    }
+
+  }
+
+
+}
+
+console.log(LinearSearch(array, target));
+
+
+// TestQuestion for Binary Search
