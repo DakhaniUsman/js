@@ -105,7 +105,7 @@ characters["new character"] = "Sanji";
 
 console.log(characters);
 
-console.log(characters['new character'] , "new character");
+console.log(characters['new character'], "new character");
 
 console.log("--------------------")
 
@@ -117,7 +117,7 @@ console.log("--------------------")
 // using [] notation object["name"] = "Usman"
 
 
-var object = { name: "Usman" , age: 21 , skills : "unknown"};     // Declaration
+var object = { name: "Usman", age: 21, skills: "unknown" };     // Declaration
 // object.name = "Dakhani Usman";
 object["name"] = "Usman Dakhani";   // Re Assign
 console.log(object, "object");
@@ -134,9 +134,9 @@ console.log("--------------------")
 // deleting element from object
 console.log("deleting element from object")
 var object = {
-    name : "Usman",
-    age : 21,
-    skills : "unknown"
+    name: "Usman",
+    age: 21,
+    skills: "unknown"
 }
 
 
@@ -152,8 +152,8 @@ console.log("-----------------")
 // Loop on objects
 // loop on objects can be ran untill there is availability of key within object
 console.log("Loop on objects")
-for (var key in object){
-    console.log(key , object[key]);
+for (var key in object) {
+    console.log(key, object[key]);
 }
 
 console.log("------------")
@@ -161,8 +161,8 @@ console.log("------------")
 // function in an object
 console.log("function in an object")
 var object = {
-    name : "Usman",
-    age : function (){  // anonymous function => a function that does not have any name
+    name: "Usman",
+    age: function () {  // anonymous function => a function that does not have any name
         console.log(21);
         console.log(this.name);     // this refers to the correct object and using this u can access anything within the object
     }
@@ -176,22 +176,37 @@ console.log("------------")
 // Object Destructuring
 
 var newObject = {
-    name : "ABCD",
-    age : 20,
-    details : { height : 5.5 , weight : 60 }
+    name: "ABCD",
+    age: 20,
+    details: { height: 5.5, weight: 60 }
 }
 
 console.log(newObject.details);
 console.log(newObject.details.height, "height")
 
 
-var {name , age , details} = newObject;  // keys can be used as variables like this
-var {height} = details;
-console.log(name, age , height);
+var { name, age, details } = newObject;  // keys can be used as variables like this
+var { height } = details;
+console.log(name, age, height);
 
 console.log("----- Dakhani Usman -----")
 
 
+// Testing
+
+
+var details = new Object();
+details.name = "usman";
+details.age = 22;
+details.role = "front end developer";
+
+details.role = "MERN Stack Developer";
+console.log(details);
+
+
+for (var key in details){
+    console.log(key, details[key]);
+}
 
 
 // Trying on Array
