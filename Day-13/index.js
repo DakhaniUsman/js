@@ -1,9 +1,9 @@
-
+// Nested Loops
 
 var array = [2, 3, 6, 7, 2, 4, 6, 8, 99];
 var target = 6;
-console.log("array",array);
-console.log("target",target);
+console.log("array", array);
+console.log("target", target);
 
 // checking each value other evry other value for all posibilties
 // 2
@@ -56,8 +56,8 @@ console.log("-_-_-_-_-_-_-_-_-_-_-_-");
 var array = [1, 2, 3];
 var target = 3;
 
-console.log("array",array);
-console.log("target",target);
+console.log("array", array);
+console.log("target", target);
 for (var i = 0; i < array.length; i++) {
   // console.log(array[i]);  // 0 , 1
 
@@ -74,3 +74,36 @@ console.log("-_-_-_-_-_-_-_-_-_-_-_-");
 
 console.log("-------------------");
 console.log("//////////---Dakhani Usman---//////////");
+
+
+//TestQuestion
+
+var array = [1, 2, 3, 4, 5, 6, 7, 8];
+var target = 7;
+
+// from the given array print the combination of two numbers whose sum is equal to target
+
+function TestQuestion(array, target) {
+
+  for (let i = 0; i < array.length; i++) {
+
+    // console.log(array[i]);
+
+    for (let j = i + 1; j < array.length; j++) {
+
+      // console.log(array[j]);
+
+      if (array[i] + array[j] === target) {
+
+        // console.log(`${array[i]} , ${array[j]}`);
+        console.log(array[i], array[j]);
+
+      }
+
+    }
+
+  }
+
+}
+
+console.log(TestQuestion(array, target));
