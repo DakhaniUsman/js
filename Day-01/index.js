@@ -17,7 +17,7 @@
 // 3.2 Conditional > < >= <=
 // 3.3 Comparison
 
-// 1.1 String
+// 1.1 Stringnode 
 //  strings are written in "" '' ``
 //  everything written in these quotes are considered as string even numbers and special characters
 //  "awdiz" 'awdiz' `awdiz` "123" '123' `123` "!@#$" '!@#$' `!@#$` all are string
@@ -41,7 +41,7 @@ console.log("!@#" , typeof("!@#"))
 
 console.log(123, typeof(123));
 console.log(123.45, typeof(123.45));
-console.log(123.07756, typeof(123.07756));
+console.log(1/2, typeof(1/2));
 
 // number data types are shown in yellow colour in terminal
 
@@ -119,9 +119,9 @@ console.log("10" == 10 ) // equal to only checks data // true which is wrong str
 console.log("10" === 10 ) // strict equal to checks data and data type
 
 
-// // Hoisting
-// // var x; // Declaration is hoisted to the top but not initialization
-// console.log("before declaration ",x);  // undefined
+// Hoisting
+var x; // Declaration is hoisted to the top but not initialization
+console.log("before declaration ",x);  // undefined
 
-// x = 10;
-// console.log("after declaration ",x);   // after declaration 10
+x = 10;
+console.log("after declaration ",x);   // after declaration 10
